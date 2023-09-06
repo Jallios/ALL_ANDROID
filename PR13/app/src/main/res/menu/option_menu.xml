@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/settings"
+        android:title="Настройки"
+        />
+
+    <item android:id="@+id/about"
+        android:title="Дополнительно"
+       >
+        <menu>
+            <group android:id="@+id/fragments">
+                <item android:id="@+id/frag_first"
+                    android:title="Первый"
+                    android:icon="@drawable/ic_baseline_first_page_24"
+                    />
+                <item android:id="@+id/frag_second"
+                    android:title="Второй"
+                    android:icon="@drawable/ic_baseline_second_24"/>
+            </group>
+        </menu>
+    </item>
+</menu>
